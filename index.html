@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="Cadastro.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="Cadastro.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+
+</head>
+
+<body>
+        <div id="fundao">
+            <div id="formulario" class="form-container">
+                <p class="title">Cadastro</p>
+                
+                    <div class="input-group">
+                        <label for="username">Nome de Usuário</label>
+                        <input type="text" name="username" id="username" placeholder="Nome" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="username">Email</label>
+                        <input type="text" name="Email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="username">Senha</label>
+                        <input type="text" name="Senha" id="password" placeholder="Senha" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Confirmar Senha</label>
+                        <input type="password" name="password" id="s-password" placeholder="Confirmar Senha" required>
+                    </div> <br>
+                    <button class="sign" onclick="Cadastrar();">Criar Conta</button> <br>
+                    <a href="02Login.html">Já tem uma conta? Faça login</a>
+
+            </div>
+        </div>
+</body>
+</html>

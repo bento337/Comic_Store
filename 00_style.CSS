@@ -1,0 +1,329 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, span, i{
+    color: white;
+}
+
+body{
+    background-color: #0f172a;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+#meumenu{
+list-style: none;
+float: left;
+display: flex;
+justify-content: center;
+font-family: candara;
+}
+
+#meumenu li{
+position: relative;
+float: left;
+}      
+
+#meumenu li{  
+    color: #4b49df;
+    display: block;
+    padding: 0px 80px;
+    text-decoration: none;
+}        
+
+#meumenu li:hover{  
+    color: white;
+}        
+
+#meumenu li a{
+    text-decoration: none;
+    color: #4b49df;
+} 
+
+#meumenu li a:hover{
+    color: white;
+}
+
+
+#meumenu li ul{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background-color:  #1e1e2d;
+    display: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#meumenu li:hover ul, #meumenu li.over ul{display: block;}
+
+#meumenu li ul li{
+  list-style: none;
+    display: block;
+    width: 30px;
+    height: 30px;
+}       
+
+#barra{
+    width: 100%;
+    height: 45px;
+    background-color: #0F172A; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Candara;
+}
+
+.homeb{
+   padding: 11px;
+   width: 5%;
+   font-size: 135%;
+}
+
+.banner{
+    width: 100%;
+}
+
+.H2{
+    text-align: left;
+    color: white;
+}
+
+.caracters{
+    border-radius: 5px;
+    margin: 5px;
+}
+
+h2{
+    font-family: Candara;
+}
+
+.box{
+ width:98%;
+ height:260px;
+ background-color:#13131f;
+ border-radius: 10px;
+ margin: 5px;
+ margin: 0 auto;
+ }     
+ 
+ .box div{
+   margin: 5px;
+ }
+
+ #T{
+    color: white;
+    margin: 1%;
+ }
+
+ .item
+ {
+     margin: 25px;
+     padding: 10px;
+     background-color: #1e1e2d;
+     font-size: 20px;
+     border-radius: 5px;
+     flex-grow: 1;
+ }
+ 
+ button {
+    width: 70%;
+    height: 10%;
+    border: 1px solid #315cfd;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: blue;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background: white;
+    color: black;
+    font-size: 1.3em;
+  }
+
+
+
+  .caracters:hover{
+    font-size: 1.3em;
+    box-shadow: 5px 1px 10px 10px #0f0f1a;
+  }
+
+  .item:hover{
+    font-size: 1.3em;
+    box-shadow: 5px 1px 10px 10px #0f0f1a;
+  }
+
+ .colum{
+     display: grid;
+     grid-template-columns:  1fr 1fr 1fr 1fr  ;
+ }
+ 
+ .row{
+     grid-template-rows: 485px 485px 485px 485px;
+ }
+ 
+ #fundao{
+     width: 98%;
+     height: 100%;
+     background-color: #13131f;
+     border-radius: 10px;
+     margin: 0 auto;
+ }
+ 
+ #icon{
+     display: inline-block;
+     float:right;
+ }
+ 
+ #imgp{
+     text-align: center;
+ }
+ 
+ #pimg{
+     width: 150px;
+     height: 228px;
+     margin-top: 10px;
+ }
+ 
+ #Title{
+     height: 2%;
+     font-size: 25px;
+ }
+ 
+ #buy{
+     padding: 4.5%;
+     border-radius: 5px;
+     border: none;
+     width: 70%;
+     color: white;
+     background-color: blue;
+ }
+ 
+ #cart{
+     margin-left: 10%;
+     font-size: 35px;
+  }
+ 
+  #price{
+     height: 15px;
+  }
+
+#rodape{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*#all-elements{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+#background-card{
+    width: 20%;
+    height: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 3.3%;
+}
+
+#product{
+    padding: 10px;
+}
+
+#icon{
+    display: inline-block;
+    position: relative;
+    left: 75%;
+}
+
+#pimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+}
+
+#title{
+    font-size: 135%;
+}
+
+#buy{
+    padding: 5%;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    color: white;
+    background-color: blue;
+}
+
+#cart{
+   margin-left: 10%;
+}
+
+@media (max-width: 480px) {
+    #all-elements{
+        width: 80%;
+        height: 390%;
+        background-color: black;
+        border-radius: 10px;
+        position: absolute;
+        margin-left: 10%;
+        padding-top: 2%;
+    }
+    
+    #background-card{
+        width: 80%;
+        height: 10%;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 8%;
+        margin-bottom: 15%;
+    }
+    */
+

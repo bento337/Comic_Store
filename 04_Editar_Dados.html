@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPRATE2.0</title>
+    <script src="https://kit.fontawesome.com/efada48f22.js" crossorigin="anonymous"></script>
+
+    <style>
+    
+        body{
+            background-color: #202D3F;
+            margin: 0;
+        }
+
+       #meumenu{
+        list-style: none;
+        float: left;
+        display: flex;
+        justify-content: center;
+       }
+
+       #meumenu li{
+        position: relative;
+        float: left;
+       }      
+       
+       #meumenu li{  
+            color: #4b49df;
+            display: block;
+            padding: 0px 80px;
+            text-decoration: none;
+       }        
+
+       #meumenu li:hover{  
+            color: white;
+       }        
+
+       #meumenu li a{
+            text-decoration: none;
+            color: #4b49df;
+        } 
+
+       #meumenu li a:hover{
+            color: white;
+        }
+
+        #meumenu li ul{
+            list-style: none;
+            position: absolute;
+            left: 0;
+            background-color:  #242c80;
+            display: none;
+            text-decoration: none;
+        }
+
+        #meumenu li:hover ul, #meumenu li.over ul{display: block;}
+
+        #meumenu li ul li{
+          list-style: none;
+            display: block;
+            width: 30px;
+        }       
+
+        #barra{
+            width: 100%;
+            height: 45px;
+            background-color: #0F172A; 
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            font-family: Candara;
+        }
+
+        .homeb{
+           padding: 11px;
+           width: 5%;
+           font-size: 135%;
+        }
+
+        #corpo{
+            display: flex;
+            justify-content: center;
+        }
+
+        .corpo{
+            background-color:  #182538;
+            height: 100vh;
+            width: 75%;
+            padding-top: 10px;
+            padding-left:150px;
+            font-family: Candara;
+            color: white;
+            font-size: 26px;
+        }
+
+        #Dado{
+          width: 50%;
+          height: 50px;
+          border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="barra">
+
+      <div  class="homeb"><a href=""><i class="fa-solid fa-house" style="color: #4b49df;"></i></a></div>
+
+      <ul id="meumenu">
+        <li class="a" >Produtos</a> 
+            <ul>
+                <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiDuafuvqP_AhUMOtQBHcVHBV4YABAAGgJvYQ&ohost=www.google.com&cid=CAESaOD2qcOR7FNMJ2fjEaxQgg4cARXUXG4wv7sLr_01DT9mDJ_m8kIDRRkSwEgjYufe7ln0GMJn3aeafq1w7DEcyhUvf14VE2PII3bXIkofUfs1_sPAYlyAnPQhHfvWUslh1JPfDpgSs6PO&sig=AOD64_2qpQ-R6vw7HTbg6js9UJw7Jy6HFg&q&adurl&ved=2ahUKEwjAw5vuvqP_AhUul5UCHftnBjcQ0Qx6BAgJEAM">HQs</a> </li>
+                <li><a href="https://www.ironstudios.com.br/busca/?fq=H:162&utm_campaign=&utm_term=figure%20statue&campaignid=14300236223&adgroupid=131239294052&targetid=kwd-304655745568&adid=539396882767&rnd=7192538299050376074&gclid=CjwKCAjwg-GjBhBnEiwAMUvNW95-aLr1-RwQorGdBb8ol_rOhutRURdPfQl8qTVeEFRUCscFNcMhQhoCOnIQAvD_BwE">Action Figures</a> </li>
+                <li><a href="https://nerdstore.com.br/">Camisas</a> </li>
+            </ul>
+        </li>
+        
+        <li><a href="https://www.legiaodosherois.com.br/">Notícias</a> </li>
+        <li><a href="https://www.marvel.com/">Marvel</a> </li>
+        <li><a href="https://www.lojadccomics.com.br/">DC</a> </li>
+        <li><a href="">Mangás</a> </li>
+        <li><a href="">Quem Somos</a> </li>
+    </ul>
+
+    <div  class="homeb"><i class="fa-solid fa-user" style="color: #4b49df;"></i></div>      
+    </div> 
+
+    <div id="corpo">
+        <div class="corpo">
+           <h1>Alterar dados pessoais</h1> 
+
+           <label for="Dado">Email</label> <br>
+           <input type="text" name="Email" id="Dado" placeholder="Email" style="color: gray; font-family: Candara;"><br><br>
+
+           <label for="Telefone">Telefone</label> <br>
+           <input type="text" name="Telefone" id="Dado" placeholder="Telefone" style="color: gray; font-family: Candara;"> <br><br>
+           
+           <label for="Usuário">Nome de Usuário</label> <br>
+           <input type="text" name="Nome de Usuário" id="Dado" placeholder="Nome de Usuário" style="color: gray; font-family: Candara;"><br><br>          
+        </div>
+    </div>
+
+    
+</body>
+</html>
